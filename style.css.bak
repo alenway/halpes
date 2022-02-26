@@ -1,0 +1,282 @@
+.something{
+		background-color: orange;
+		}
+		
+		
+		
+		
+		.nav-button{
+			background-color: white;
+			border: none;
+		}
+		
+		
+li,a,button{
+	font-family: "Nunito Sans",sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #737b79;
+	text-decoration: none;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.dropdown-toggle::after{
+	content: none;
+}
+
+#navbar{
+	padding: 0;
+	}
+
+.imagehover{
+	opacity: 0.3;
+}
+
+.imagehover:hover{
+	opacity: 1;
+	background-color:white;
+}
+
+.icons{
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	background-color: #e5eeec;
+}
+
+
+.choiseright .fas{
+	font-size:50px;
+	color:#15c8a0;
+	}
+
+.choiseright span i:hover {
+	background-color: #15c8a0;
+	color:white;
+	opacity:1;
+	}
+
+.container-fluid{
+	padding: 0 30px 0 30px;
+	}
+
+
+#navhover .dropdown-item a:hover{
+	color: white;
+}
+
+.active{
+	    transform: scale(1, 1);
+    transform-origin: right center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  padding: 0;
+  margin:0;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+	background-color: #17c8a1
+	}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item a:hover .dropdown-menu a{
+	color: white:
+	}
+
+#subdropdown:hover .sub-dropdown-menu{
+	display: block;
+	}
+
+
+.sub-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.sub-dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.sub-dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.image{
+	background-image: url("images/main-slider-3-1.jpg");
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+	}
+
+.black{
+	background-color: #1f2230;
+	color: white;
+	}
+
+
+.section2 ul li{
+	display: inline;
+	}
+
+.donationbackimage{
+	background-image: url("images/help-them-two-bg.jpg")
+	}
+
+
+	
+	
+.btnviewmore:hover{
+	background-color: #1f2230;
+	color: white;
+	}
+
+.btnviewmore:hover i{
+	color: white;
+	}
+
+.btnviewmore:hover a{
+	color: white;
+	}
+
+.progress{
+	height: 10px;
+	background-color: white;
+	border-radius: 1rem;
+	}
+
+.blackimage{
+	background-image: url("images/counters-two-bg.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+}
+
+.blackimage2{
+	background-image: url("images/footer-bg.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+}
+
+
+.choise ul li{
+	list-style: none;
+	}
+	
+	
+.choiseright ul li {
+	display: inline-block;
+	}
+	
+	
+	box-shadow {
+box-shadow: 11px 17px 11px -1px rgba(196,180,180,0.35);
+-webkit-box-shadow: 11px 17px 11px -1px rgba(196,180,180,0.35);
+-moz-box-shadow: 11px 17px 11px -1px rgba(196,180,180,0.35);	
+}
+
+  
+.singleicons ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.foundation{
+	background-image: url("images/why-choose-bg.jpg");
+	height: 643px;
+	width: 864px;
+	opacity: 0.1;
+	}
+.foundationlowerright ul li{
+	list-style: none;
+	}
+
+.footer .wigit ul li{
+	list-style: none;
+}
+
+
+@font-face{
+	font-family: reey;
+	src: url("reey/Reey-Regular.otf") format("opentype");
+	}
+	
+	
+	.rotate {
+  animation: rotation 16s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+
+.subupdate ul li{
+	list-style:none;
+}
+
+
+
+.footerimg{
+	background-image: url("images/footer-bg.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: cover;
+}
+
+@media (min-width: 992px){
+				#toggle{
+				display: none;
+				}
+		}
+		
+		@media (max-width: 990px){
+				#toggle{
+				display: block;
+				}
+		}

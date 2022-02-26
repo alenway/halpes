@@ -1,0 +1,173 @@
+.container{
+	margin: 0 159px 0 159px;
+	padding: 0 15px 0 15px;
+}
+
+
+p{
+	font-size:16px;
+	line-height:30px;
+	font-weight: 700;
+	color: #707876;
+	font-family:'Ubuntu', sans-serif;
+	margin-bottom:0;
+}
+	
+.infosection ul li{
+	list-style: none;
+}
+	
+.infosection ul{
+	padding: 0;
+}
+
+.infosection h5{
+	font-weight: 600;
+	font-family:'Ubuntu', sans-serif;
+}
+	
+.infosection{
+	padding: 40px 140px 0 0;
+}
+		
+		
+.icons{
+	background-color:#15c8a0;
+	height:65px;
+	width:65px;
+	border-radius: 50%;
+}
+		
+i{
+	color:white;
+	padding: 14px 0 0 2px;
+	font-size:35px;
+}
+
+.icons:hover{
+	background-color: #1f2230;
+}
+		
+.rightform{
+	background-color:#eff5f4;
+	padding: 10px 60px 60px 60px;
+}
+		
+.leftform{
+	width:570px;
+}
+		
+.rightform h2,h3{
+	color:#15c8a0;
+	font-family:'Ubuntu', sans-serif;
+	margin-bottom:20px;
+}
+
+input{
+	padding:4px 8px 4px 8px;
+	border: none;
+	font-weight: 300;
+	font-family:'Ubuntu', sans-serif;
+}
+
+
+.borderclass{
+	margin-bottom: 20px;
+}
+
+.borderclass input{
+	width: 160px;
+	height: 60px;
+}
+
+.dobclass input{
+	height: 60px;
+}
+
+.genderclass{
+	margin-top:30px;
+}
+
+.genderclass input:nth-of-type(2){
+	margin-left:20px;
+}
+
+.addressclass{
+	margin-top: 20px;
+}
+
+.addressclass textarea{
+	width: 100%;
+	height: 80px;
+	padding:4px 8px 4px 8px;
+	border: none;
+	font-weight: 300;
+	font-family:'Ubuntu', sans-serif;
+}
+
+.mainaddress input{
+	width:100%;
+	height: 60px;
+	padding: 4px 12px 4px 12px;
+}
+
+.secondmainaddres input{
+	margin-top:20px;
+}
+
+.city{
+	margin-top: 20px;
+}
+
+.city input{
+	height: 60px;
+}
+
+.country{
+	margin-top: 20px;
+}
+
+.country select{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	border: none;
+	text-align: center;
+}
+
+select option:hover{
+	background-color: orange;
+}
+
+.submit input{
+	background-color: #15c8a0;
+	color: white;
+	padding: 18px 50px 18px 50px;
+	margin-top: 30px;
+	border: none;
+	font-weight: 700px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.submit input:hover{
+	background-color: #1f2230;
+}
+
+.submit i{
+	font-size: 17px;
+	padding: 0 6px 0 0;
+}
+
+.personalinfo{
+	margin-top: 15px;
+}
+
+.personalinfo input{
+	height: 60px;
+}
+
+
+
+
+
+
